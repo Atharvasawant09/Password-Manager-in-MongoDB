@@ -9,7 +9,7 @@ const Footer = () => {
           <span className='text-red-800'>Vault/&gt;</span>
           </div>
           <div className='flex justify-center items-center my-0.5'>
-      Created with <img className='w-7 mx-1' src="/icons/heart.png" alt="" />   by Atharvasawant09
+      Created with <img className='w-7 mx-1'src={`${import.meta.env.VITE_PUBLIC_URL}/icons/heart.png`}  alt="" />   by Atharvasawant09
 
           </div>
     </div>

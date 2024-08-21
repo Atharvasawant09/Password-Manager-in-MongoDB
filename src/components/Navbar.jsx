@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Navbar = () => {
   return (
     <nav className='bg-zinc-800 text-white '>
@@ -16,7 +17,8 @@ const Navbar = () => {
                 <a className='hover:font-bold' href="/contact">Contact</a>
             </li>
         </ul> */}
-        <button  className="icons flex justify-between items-center text-white bg-red-800 my-5 rounded-full ring-white ring-1  "><img className='w-10 p-1 invert ' src="/icons/github.svg" alt="github logo" />
+        <button  className="icons flex justify-between items-center text-white bg-red-800 my-5 rounded-full ring-white ring-1  "><img className='w-10 p-1 invert' src={`${import.meta.env.VITE_PUBLIC_URL}/icons/github.svg`} alt="github logo" />
+
         <a className='px-2 font-bold ' href="https://github.com/Atharvasawant09">GitHub</a>
         </button>
         </div>
